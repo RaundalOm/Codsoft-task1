@@ -1,0 +1,270 @@
+*{
+    padding: 0; margin:0; box-sizing: border-box; position: relative;
+}
+/*font-family: "Poppins", sans-serif;
+/* font-family: "Kalam", cursive;*/
+header{
+    width: 100;
+    height: 100vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.9),rgba(0, 0, 0, 0.9)),
+    url('./dsk1.jpg');
+    background-size: cover;
+    color:white;
+
+
+
+}
+nav{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 0 70px;
+    font-family: "Poppins", sans-serif;
+    margin-bottom: 0px;
+}
+.logo{
+    font-size: 2em;
+    letter-spacing: 2px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.logo img{
+    width: 50px;
+}
+.menu a{
+   text-decoration: none;
+   color: aliceblue;
+   font-size: 1.2em;
+   padding:0.5rem 1rem 
+}
+.menu a:nth-child(5){
+    background-color: #6ab04c;
+    border-radius: 8px;
+    margin: 0 1rem;
+}
+.menu i{
+    font-size: 1.5em;
+    margin:0 0.5rem;
+    cursor: pointer;
+}
+.menu a:hover{
+    background-color: #6ab04c;
+    border-radius: 8px;
+}
+.container{
+    width:100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap:wrap ;
+    padding:0 25px;
+}
+.left{
+    flex-basis: 60%;
+    margin-top: 1px;
+    
+}
+.left h2{
+    font-size: 2em;
+    font-family: "Poppins", sans-serif;
+    color:#6ab04c;
+    margin-top: 0px;
+
+}
+.left h1{
+    font-family: "Kalam", cursive;
+    font-size: 5em;
+    line-height: 90px;
+}
+.left p{
+    font-size: 1.2em;
+    font-family: "Poppins", sans-serif;
+    line-height: 2rem;
+    margin-bottom: 2px;
+    
+}
+#hire{
+    text-decoration: none;
+    background: #6ab04c;
+    color:aliceblue;
+    padding:1rem 2rem;
+    border-radius: 8px;
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+
+
+}
+#mp{
+    text-decoration: none;
+    color:aliceblue;
+    padding:1rem 2rem;
+    border:1px dashed white;
+    border-radius: 8px;
+    font-size: 1.5rem;
+    margin: 0 1rem;
+
+
+
+}
+.right{
+    flex-basis: 30%;
+}
+.right img{
+    height: 500px;
+    margin-top: 0%;
+    margin-bottom: 250px;
+}
+#bio{
+    cursor:pointer;
+    padding:150px 70px;
+    width:100%;
+    height:1000%;
+    display:flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    font-family: "Poppins", sans-serif;
+
+
+}
+.leftbio{
+    flex-basis: 40%;
+
+}
+.leftbio img{
+    width: 90%;
+    height: 550px;
+    border-radius: 8px;
+    margin-top: 30px;
+}
+.rightbio{
+    flex-basis: 60%;
+    text-align: right;
+    padding: 0 40px;
+}
+.rightbio p{
+    margin: 15px 0;
+    line-height: 2.5rem;
+
+}
+.rightbio h1{
+    font-size: 2.5rem;
+}
+.info{
+    display: flex;
+    justify-content:space-around ;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    text-align: left;
+}
+#follow{
+
+    text-align: center;
+}
+
+#follow i{
+    font-size: 1.5rem;
+    color: #6ab04c;
+    margin: 0 0.5rem;
+
+}
+.link-h{
+    text-decoration: none;
+    text-align: center;
+    margin-top: 3rem;
+}
+#cv{
+    text-decoration: none;
+    color: black;
+    padding:1rem 2rem;
+    border-radius: 8px;
+    font-size:1.5rem;
+    margin: 0 1rem;
+    border:1px dashed;
+
+}
+#services{
+    padding:50px 70px;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.03);
+    font-family: "Poppins", sans-serif;
+    text-align: center;
+
+
+}
+.intro h1{
+    font-size: 3rem;
+}
+.card{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content:space-between;
+    align-items:center;
+    flex-wrap: wrap;
+    margin-top:3rem ;
+
+
+}
+.cardbody{
+    flex-basis: 30%;
+    background: white;
+    padding:1rem;
+    margin: 1rem;
+    border-radius: 8px;
+}
+.cardbody h3{
+
+    font-size: 1.5rem;
+    margin: 2rem; 
+
+}
+.cardbody i{
+    font-size: 2.5rem;
+    color:#6ab04c
+}
+#proj{
+    padding:50px 70px;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.03);
+    font-family: "Poppins", sans-serif;
+    text-align: center;
+
+}
+.project h1{
+    font-size: 3rem;
+
+}
+.card1{
+    width: 60%;
+    height: 40%;
+    display:inline-flex;
+    justify-content:space-between;
+    align-items:center;
+    flex-wrap: wrap;
+    margin-top:3rem ;
+    all: inherit;
+}
+.cardbody1{
+    flex-basis: 30%;
+    background: white;
+    padding:1rem;
+    margin: 1rem;
+    border-radius: 8px;
+}
+   
+
+footer{
+    background-color:#6ab04c;
+    color:azure;
+    font-size: 2rem;
+    padding:0.5rem;
+    font-family: "Kalam", cursive;
+    text-align: center;
+}
